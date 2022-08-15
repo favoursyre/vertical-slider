@@ -1,0 +1,55 @@
+<!-- I want to learn how to create a vertical slider -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <!-- meta tags contains information about the website --> 
+        <title> Vertical Slider </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="slider-container">
+
+            <!-- This handles the left side -->
+            <div class="left-slide">
+                <div style="background-color: #FFB763">
+                    <h1>Syre</h1>
+                    <p>A beautiful confusion</p>
+                </div>
+                <div style="background-color: #E7D0B6">
+                    <h1>Nnewi</h1>
+                    <p>The home of billionaires</p>
+                </div>
+                <div style="background-color: #FF3B3B">
+                    <h1>Yam and Oil</h1>
+                    <p>A food for gods</p>
+                </div>
+            </div>
+
+            <!-- This handles the right side -->
+            <div class="right-slide">
+                <div> <img src="yam_oil.jpg" alt = "yam and oil picture"> </div>
+                <div> <img src="nnewi.jpg" alt = "nnewi picture"> </div>
+                <div> <img src="syre.jpg" alt = "syre picture"> </div>
+            </div>
+
+            <!-- This handles the arrow buttons -->
+            <div class="action-buttons">
+                <button class="down-button"> 
+                    <i class="fas fa-arrow-down"></i>
+                </button>
+                <button class="up-button">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
